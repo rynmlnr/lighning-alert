@@ -19,7 +19,6 @@ and matches that data against a source of assets (also in JSON format) to produc
 ## What is the time complexity for determining if a strike has occurred for a particular asset?
 > Big O (n of total registered assets)
 
-## If we put this code into production, but found it too slow, or it needed to scale to many more users or more frequent strikes
-## what are the first things you would think of to speed it up?
+## If we put this code into production, but found it too slow, or it needed to scale to many more users or more frequent strikes what are the first things you would think of to speed it up?
 > By using the auto-scaling technique that some cloud server is providing, it will increase or decrease number of resources that are being allocated to the 
 > systems needs at a given moment in time
