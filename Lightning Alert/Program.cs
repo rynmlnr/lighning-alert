@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Lightning_Alert.Presenter;
+using Lightning_Alert.Service;
+
+AssetService assetService = new();
+LightningAlert main = new LightningAlert(assetService);
+main.Run();
